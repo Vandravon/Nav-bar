@@ -1,0 +1,34 @@
+nav {
+  width: 600px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  background-color: #e6e6b6;
+}
+nav ul li {
+  display: flex;
+  width: 100%;
+}
+nav ul li a {
+  text-align: center;
+  width: 100%;
+  border: 1px solid #b154b1;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #6f6fe4;
+  color: #c985c9;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #c985c9;
+  color: #6f6fe4;
+}
+
+/*# sourceMappingURL=styleV.css.map */
